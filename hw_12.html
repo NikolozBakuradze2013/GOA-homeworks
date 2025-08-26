@@ -1,0 +1,37 @@
+<!-- 1) კომენტარის სახით ახსენით რა განსხვავებაა src' სა და <source>'ს შორის -->
+
+<!-- src გამოიყენება მაშინ, როცა ერთი კონკრეტული ფაილი უნდა ჩავსვათ (მაგალითად <img>, <audio>, <video>)
+     <source> გამოიყენება მაშინ, როცა შესაძლებელია რამდენიმე ფაილის ფორმატის მითითება, 
+     რომ ბრაუზერმა თვითონ აირჩიოს რომელი დაუჭერს მხარს. -->
+
+<!-- 2) შექმენით საიტი სადაც დაამატებთ 3 სიმღერას აუდიოს სახით თთოეულს დააწერთ სათაურს სიმღერის ქვეშ დაწერთ აღწერას და ასევე მიუწერთ თუ რატომ მოგწონთ ეს სიმღერა -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>My Favourite Songs</title>
+</head>
+<body>
+  <h1>My Favourite Songs</h1>
+
+  <h2>Song 1: The Notorious B.I.G. - Kick in the Door</h2>
+  <audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
+  <p>This is a song where Biggie talks about his enemies.</p>
+
+  <h2>Song 2: DJ Quik - Dollaz + Sense</h2>
+  <audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
+  <p>This song talks about one of his enemies: MC Eiht.</p>
+
+  <h2>Song 3: Tha Dogg Pound - What Would U Do?</h2>
+  <audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
+  <p>This song is about a record label named Rutheless Records</p>
+</body>
+</html>
+

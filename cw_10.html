@@ -1,0 +1,35 @@
+<!-- 1) კომენტარის სახით ახსენით რაში გვჭირდება input'ები და label'ები -->
+<!-- input გამოიყენება მომხმარებლისგან მონაცემების მისაღებად, მაგალითად: ტექსტი, ელფოსტა, პაროლი, თარიღი, checkbox, radio და სხვა. -->
+<!-- label გამოიყენება input-თან ასოცირებული ტექსტური აღწერის მისაცემად. -->
+
+<!-- 2) შექმენით რეგისტრაციის ფორმა სადაც გექნებათ სახელი, გვარი, ემაილი, "submit" და პაროლი ასევე გამოიყენეთ იარლიყებიც(label)'ი. -->
+<!-- 3) შექმენით drop-down მენიუ სადაც შეინახავთ თქვენთვის სასურველ მანქანებს მინიმუმ იყოს 5 option'ი. -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+    <label for="name">Enter your name</label>
+    <input type="text" id="name">
+    <label for="surname">Enter your surname</label>
+    <input type="text" id="surname">
+    <label for="email">Enter your email</label>
+    <input type="email" id="email">
+    <label for="pass">Enter your password</label>
+    <input type="password" id="pass">
+    <label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="jeep">Jeep</option>
+  <option value="hummer">Hummer</option>
+  <option value="chevy">Chevrolet</option>
+  <option value="caddy">Cadillac</option>
+  <option value="ford">Ford</option>
+</select>
+    <button>Submit</button>
+</body>
+</html>
+
+
